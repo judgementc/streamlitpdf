@@ -1,8 +1,6 @@
 import streamlit as st
 import base64
 
-file_path='C:/Users/win10/Desktop/avsc.12388.pdf'
-
 # Display a file uploader widget
 uploaded_file = st.file_uploader("Choose a PDF file", type="pdf")
 
@@ -29,4 +27,4 @@ def show_pdf(file_path):
     st.markdown(pdf_display, unsafe_allow_html=True)
 
 
-show_pdf('C:/Users/win10/Desktop/small-prin-test.pdf')
+show_pdf('small-prin-test.pdf')
